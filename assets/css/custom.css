@@ -1,0 +1,8 @@
+/* Add here all your css styles (customizations) */
+#titulo {
+	color: white;
+
+}
+#titulo:hover {
+	color: #00ccc5;
+}
