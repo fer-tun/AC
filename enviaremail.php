@@ -23,7 +23,7 @@ if(!isset($_POST['nombre']) ||
 echo "<b>Ocurrió un error y el formulario no ha sido enviado. </b><br />"; 
 echo "Por favor, vuelva atrás y verifique la información ingresada<br />"; 
 die(); }  
-$email_message = "Detalles del formulario de contacto:\n\n"; 
+
 $email_message .= "Nombre: " . $_POST['nombre'] . "\n";  
 $email_message .= "E-mail: " . $_POST['email'] . "\n"; 
 $email_message .= "Mensaje: " . $_POST['mensaje'] . "\n\n";   // Ahora se envía el e-mail usando la función mail() de PHP 
@@ -36,7 +36,7 @@ echo "El formulario se ha enviado con exito<br>";
 
 //PARA REDIRECCIONAR AL FORMULARIO DE NUEVO PUEDES USAR ESTAS DOS FORMAS:
 
-echo "<a href='index.html'>REGRESAR >></a>";
+echo "<META HTTP-EQUIV=Refresh CONTENT="1; URL=index.html">";
 //echo "<META HTTP-EQUIV=Refresh CONTENT='2; URL=formulario.php'>";
 
  } ?>
