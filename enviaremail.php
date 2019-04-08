@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="description" content="correo">
-	<META HTTP-EQUIV=Refresh CONTENT="4; URL=index.html">
-	<title>Enviar formulario</title>
-</head>
-<body>
 <?php 
 if(isset($_POST['email'])) 
 {  // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias 
@@ -40,6 +31,3 @@ echo '<META HTTP-EQUIV=Refresh CONTENT="1"; URL="index.html">';
 //echo "<META HTTP-EQUIV=Refresh CONTENT='2; URL=formulario.php'>";
 
  } ?>
-
-</body>
-</html>
