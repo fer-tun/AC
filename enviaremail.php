@@ -36,7 +36,7 @@ echo "El formulario se ha enviado con exito<br>";
 
 //PARA REDIRECCIONAR AL FORMULARIO DE NUEVO PUEDES USAR ESTAS DOS FORMAS:
 
-echo "<META HTTP-EQUIV=Refresh CONTENT="1; URL=index.html">";
+echo '<META HTTP-EQUIV=Refresh CONTENT="1"; URL="index.html">';
 //echo "<META HTTP-EQUIV=Refresh CONTENT='2; URL=formulario.php'>";
 
  } ?>
